@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\ov7670.o"
+".\objects\sccb.o"
+".\objects\misc.o"
+".\objects\delay.o"
+".\objects\exti.o"
+".\objects\lcd.o"
+".\objects\spi.o"
+".\objects\st7735s.o"
+".\objects\pwm.o"
+".\objects\main_1.o"
+".\objects\stm32f10x_dma.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_i2c.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_rtc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\stm32f10x_tim.o"
+".\objects\stm32f10x_usart.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CameraInit.map" -o .\Objects\CameraInit.axf
